@@ -1,0 +1,203 @@
+.center-vertical{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+h2{
+	text-align: center;
+	color: white;
+}
+
+.sub-title{
+	text-align: center;
+	color: white;
+	font-weight: 130;
+	font-size: 1.3em;
+}
+
+.text{
+	color: white;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+#nav1{
+	background-color: #ffd600;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+	
+#nav2{
+	background-color: #ff6d00;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#nav3{
+	background-color: #51d6ab;
+	padding-top: 70px;
+}
+
+#nav4{
+	background-color: #f94777;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#nav5{
+	background-color: #f94777;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+#nav6{
+	background-color: #dadf00;
+	padding-top: 40px;
+}
+
+#nav7{
+	background-color: #ff6d00;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#nav8{
+	background-color: #51d6ab;
+	padding: 40px;
+}
+	
+#nav9{
+	background-color: #50bed7;
+	padding-top: 40px;
+}
+
+#season_text{
+	margin-top: -70px;
+}
+
+#time_2{
+	padding-top: 400px;
+}
+
+#map_text{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+	.sub-title{
+		font-weight:600;
+	}
+	.text{
+		font-weight: 600;
+	}
+	
+	#nav1{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#nav1 > .visible-xs{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#nav2{
+		padding: 40px;
+	}
+	
+	#nav3{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#nav3 > .visible-xs{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#nav4{
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	#nav4 > .visible-xs{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#nav5{
+		background-color: #f94777;
+		padding: 40px;
+	}
+	
+	#nav6{
+		padding-top: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#nav7{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#nav7 > div > .col-sm-5{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#nav8{
+		padding: 40px;
+	}
+	#nav9{
+		padding: 40px;
+	}
+	
+	#season_text{
+		margin-top: 10px;
+	}
+	#time_2{
+		padding-top: 20px;
+	}
+	#map_text{
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
