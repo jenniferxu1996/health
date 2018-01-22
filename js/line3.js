@@ -19,7 +19,7 @@ $(document).ready(function() {
 			}
 		},
 		xAxis: {
-			name: '时段',
+			name: 'time frame',
 			nameLocation:'middle',
 			nameGap:35,
 			type: 'category',
@@ -41,7 +41,7 @@ $(document).ready(function() {
 		},
 		yAxis: {
 			position:'right',
-			name: '咽喉炎气管炎药品排名',
+			name: 'Ranking of medicines for sphagitis and trachitis',
 			nameLocation:'middle',
 			nameGap:40,
 			type: 'value',
@@ -56,7 +56,7 @@ $(document).ready(function() {
 			axisLabel: {
 				formatter: function (value, index) {
 					if(value==0){
-						return '10以后';
+						return 'after 10';
 					}else{
 						return 11-value;
 					}
@@ -85,11 +85,11 @@ $(document).ready(function() {
 				color:'white',
 				fontSize:16
 			},
-			data:['东部','中部','西部']
+			data:['east','middle','west']
 		},
 		series: [
 			{
-				name: '东部',
+				name: 'east',
 				type: 'line',
 				showSymbol:false,
 				smooth:true,
@@ -100,7 +100,7 @@ $(document).ready(function() {
 				},
 				data: [0,0,0,0,0,0,4,6,7,7,6,6,6,6,4,4,4,6,6,7,6,3,2,1],
 			}, {
-				name: '中部',
+				name: 'middle',
 				type: 'line',
 				showSymbol:false,
 				smooth:true,
@@ -111,7 +111,7 @@ $(document).ready(function() {
 				},
 				data: [0,0,0,0,0,0,0,0,3,1,2,2,1,0,0,0,0,0,0,0,0,0,0,0],
 			}, {
-				name: '西部',
+				name: 'west',
 				type: 'line',
 				showSymbol:false,
 				smooth:true,

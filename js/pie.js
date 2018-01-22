@@ -20,37 +20,37 @@ $(document).ready(function() {
 			clockwise: false,
 			data: [{
 				value: 1,
-				name: '个人护理'
+				name: 'personal care'
 			}, {
 				value: 3,
-				name: '其他'
+				name: 'others'
 			}, {
 				value: 3,
-				name: '营养保健'
+				name: 'nutrition and health care'
 			}, {
 				value: 4,
-				name: '两性'
+				name: 'sexual medicines'
 			}, {
 				value: 4,
-				name: '慢性疾病用药'
+				name: 'chronic disease medicines'
 			}, {
 				value: 5,
-				name: '男性'
+				name: 'men-use'
 			}, {
 				value: 6,
-				name: '儿童用药'
+				name: 'pediatric drugs'
 			}, {
 				value: 6,
-				name: '五官用药'
+				name: 'medicines for five sense organs'
 			}, {
 				value: 8,
-				name: '女性'
+				name: 'women-use'
 			}, {
 				value: 10,
-				name: '皮肤用药'
+				name: 'dermatological medicines'
 			}, {
 				value: 48,
-				name: '家庭常备'
+				name: 'household medicines'
 			}, ],
 			itemStyle: {
 				normal: {

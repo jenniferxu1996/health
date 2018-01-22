@@ -31,7 +31,7 @@ $(document).ready(function() {
 			}
 		},
 		xAxis: {
-			name: '时段',
+			name: 'time frame',
 			nameLocation:'middle',
 			nameGap:35,
 			type: 'category',
@@ -52,7 +52,7 @@ $(document).ready(function() {
 			data: ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23']
 		},
 		yAxis: {
-			name: '占比',
+			name: 'percentage',
 			nameLocation:'middle',
 			nameGap:50,
 			type: 'value',
@@ -86,7 +86,7 @@ $(document).ready(function() {
 				color:'white',
 				fontSize:16
 			},
-			data:['所有产品整体下单时段分布','全天销售量最高的感冒用药和呼吸系统用药','晚上需求较突出的避孕类产品分时段销售情况']
+			data:['Sales of all medicines at different time frames','Sales of cold medicines and medicines for respiratory system at different time frames','Sales of safety & contraception products at different time frames']
 		},
 		series: [{
 			name: '所有产品整体下单时段分布',

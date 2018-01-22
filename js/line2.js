@@ -19,7 +19,7 @@ $(document).ready(function() {
 			}
 		},
 		xAxis: {
-			name: '时段',
+			name: 'time frame',
 			nameLocation:'middle',
 			nameGap:35,
 			type: 'category',
@@ -41,7 +41,7 @@ $(document).ready(function() {
 			data: ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23']
 		},
 		yAxis: {
-			name: '调节免疫力产品排名',
+			name: 'Ranking of medicines for immunity adjustment',
 			nameLocation:'middle',
 			nameGap:40,
 			type: 'value',
@@ -56,7 +56,7 @@ $(document).ready(function() {
 			axisLabel: {
 				formatter: function (value, index) {
 					if(value==0){
-						return '10以后';
+						return 'after 10';
 					}else{
 						return 11-value;
 					}
@@ -84,11 +84,11 @@ $(document).ready(function() {
 				color:'white',
 				fontSize:16
 			},
-			data:['东部','中部','西部']
+			data:['east','middle','west']
 		},
 		series: [
 			{
-				name: '东部',
+				name: 'east',
 				type: 'line',
 				showSymbol:false,
 				smooth:true,
@@ -99,7 +99,7 @@ $(document).ready(function() {
 				},
 				data: [2,0,0,0,0,0,0,0,0,1,4,5,5,4,5,7,6,7,5,4,7,6,5,0],
 			}, {
-				name: '中部',
+				name: 'middle',
 				type: 'line',
 				showSymbol:false,
 				smooth:true,
@@ -110,7 +110,7 @@ $(document).ready(function() {
 				},
 				data: [0,3,4,0,4,6,0,3,6,8,8,8,8,8,8,10,9,10,8,8,8,7,6,7],
 			}, {
-				name: '西部',
+				name: 'west',
 				type: 'line',
 				showSymbol:false,
 				smooth:true,

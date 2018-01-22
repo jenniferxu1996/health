@@ -29,7 +29,7 @@
 				        selectedMode:false,
 				        x: '25%',
 				        y: '3%',  
-				        data:['用户购买药品百分比'],
+				        data:['percentage of medicines purchased online'],
 				        textStyle:{
 				        	color:'white',
 				        	fontSize:fontSize
@@ -74,11 +74,11 @@
 					            show: false
 					        },
 							data:[
-							'内分泌系统',
-							'护肤用品','季节护理','神经用药','检测仪器','呼吸道用具','私密护理',
-							'营养食品','辅助理疗','男科用药','心脑血管用药','其他药品','安全避孕','检测试纸',
-							'营养健康','风湿骨伤','滋补调养','家庭常备','儿童用药','五官用药',
-							'妇科用药','消化系统','呼吸系统','皮肤用药','感冒用药']
+							'medicines for endocrine system',
+							'skin cares','seasonal nursing medicines','nerve medicine','inspection instrument','breathing apparatus','feminine Care',
+							'nutritious food','physiotherapy aid','male drugs','Cardiac cerebrovascular medication','other medicines','safety & contraceptive pills','test strips',
+							'nutrition and health care','rheumatism and bone fractures','nourishing and nursing','household medicines','pediatric drugs','medicines for five sense organs',
+							'gynecological medicines','medicines for digestive system','medicines for respiratory system','dermatological medicines','cold medicines']
 				        }
 				    ],
 				    series : [

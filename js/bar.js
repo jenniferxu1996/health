@@ -29,7 +29,7 @@
 							show:false
 						},
 			            type : 'category',
-			            data : ['10', '30', '50', '100', '200', '200以上'],
+			            data : ['10', '30', '50', '100', '200', 'above 200'],
 			            axisTick: {
 			                show:false
 			            }
