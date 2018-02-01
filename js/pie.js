@@ -15,7 +15,7 @@ $(document).ready(function() {
 		series: [{
 			name: '用户购买品类分布情况',
 			type: 'pie',
-			radius: '65%',
+			radius: '45%',
 			center: ['50%', '50%'],
 			clockwise: false,
 			data: [{
